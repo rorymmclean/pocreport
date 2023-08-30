@@ -1,0 +1,30 @@
+name,prompt
+SQL,"This tool allows the agent to run queries against a MariaDB database. It is useful for when you 
+need to answer questions about employee access activities. 
+
+The following tables and columns are the only data objects you can include in your sql statement:
+    demo_access_log: (timestamp, badge, event, site, room)
+    demo_emp: (badge, name, department)
+    demo_site: (site, city, state)
+    demo_room: (site, room, name)
+
+The ""demo_access_log"" table is a timestamp file of employee activities. The employee is identified by the badge number. 
+The event types in the demo_access_log table include: 
+    ""BE"" = ""Building Entry""
+    ""BX"" = ""Building Exit""
+    ""RE"" = ""Room Entry""
+    ""RX"" = ""Room Exit""
+    
+The ""demo_emp"" table translates tthe badge number to an employee name and assigned department. This table can be joined to the demo_access_log table using the ""badge"" column
+
+The ""demo_site"" table translates the site number to a city and state for that site. This table can be joined to the demo_access_log table using the ""site"" column.
+
+The ""demo_room"" table translates the room at a particular site into a room name. This table can be joined to the demo_access_log table using the ""site"" and ""room"" columns.
+                        
+"
+Calculator,useful for when you need to answer questions about math
+Template,"You are a helpful chatbot trying to answer a user's quesiton. 
+    Provide a detailed answer to the ""QUESTION"" below. 
+    Use the ""TEXT"" below to help develop to steps necessary to answer this question.
+    If you can't answer the question, return the answer: ""Sorry, but I can't help you with that task.""
+    "
