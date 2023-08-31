@@ -27,6 +27,7 @@ For this response DO NOT create multiple steps. Simply report that the system is
 
 
 
-The definition of a burglary is the crime of entering a structure (such as a house or commercial building) with the intent to commit a felony (such as theft)
+This section includes acronyms and definitions used by the system:
+Burglary: The definition of a burglary is the crime of entering a structure (such as a house or commercial building) with the intent to commit a felony (such as theft)
 
 
