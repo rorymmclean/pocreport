@@ -1,5 +1,5 @@
 How to file a burglary report:
-The user must include the following information in the burlary report: 
+The user must include the following information in the burglary report: 
 - Ask the user for the location of the burglary. The user should provide the street address, city and state. If the user cannot provide a street address ask the user for a nearby landmark or cross streets. 
 - Ask the user for the date and time of the burglary even if the time is just an estimate.
 - Ask the user to list property stolen. The user should provide a description of each item, when it was purchased, and an estimated value for each item.
@@ -16,13 +16,17 @@ The user must include the following information in the crime scene report:
 - Ask the user for the date and time of the crime even if the time is just an estimate.
 - Ask the user to describe the victims of the crime including name, address, phone number, and relationship to the user.
 - Ask the user to describe the criminal in terms of gender, race, estimate height, estimated weight, hair color, hair style, facial hair, style of clothes.
-- Ask the user to describe the environmental conditions during the crime including light level, temperature, percipitation, 
+- Ask the user to describe the environmental conditions during the crime including light level, temperature, precipitation, 
 - Ask the user if there were any security cameras covering the scene of the crime.
 
 
 
 
 How to respond if the user wants to know what kind of reports the system can collect.
-For this response DO NOT create multiple steps. Simply report that the system is current configured to collect information on burlaries and crime scenes and inform the user that the system can be expanded to include any type of report as long as instructions are provided in the runbook.
+For this response DO NOT create multiple steps. Simply report that the system is current configured to collect information on burglaries and crime scenes and inform the user that the system can be expanded to include any type of report as long as instructions are provided in the runbook.
+
+
+
+The definition of a burglary is the crime of entering a structure (such as a house or commercial building) with the intent to commit a felony (such as theft)
 
 
