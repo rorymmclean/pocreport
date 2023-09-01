@@ -3,7 +3,6 @@ The user must include the following information in the burglary report:
 - Ask the user for the location of the burglary. The user should provide the street address, city and state. If the user cannot provide a street address ask the user for a nearby landmark or cross streets. 
 - Ask the user for the date and time of the burglary even if the time is just an estimate.
 - Ask the user to list property stolen. The user should provide a description of each item, when it was purchased, and an estimated value for each item.
-- Calculate the total value of all items. 
 - Ask the user for their contact information including name, address, and phone number.
 - Ask the user to list the contact information for any witnesses, including name, address, phone numbers, and relationship to the user.
 
@@ -29,5 +28,6 @@ For this response DO NOT create multiple steps. Simply report that the system is
 
 This section includes acronyms and definitions used by the system:
 Burglary: The definition of a burglary is the crime of entering a structure (such as a house or commercial building) with the intent to commit a felony (such as theft)
+
 
 
